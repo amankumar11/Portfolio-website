@@ -222,6 +222,36 @@ a:focus {
     }
 }
 
+.mobile-dev{
+    display: none;
+}
+
+@media (max-width: 991.98px){
+    .navbar{
+        display: none;
+    }
+    .hero .hero-text p{
+        display: none;
+    }
+    .hero .hero-text h1{
+        display: none;
+    }
+    .hero .hero-text, .hero .hero-btn{
+        display: none;
+    }
+    .typed-text{
+        display: none;
+    }
+    .mobile-dev{
+        display: flex;
+    }
+    body{
+        overflow-y:hidden;
+    }
+
+    
+}
+
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
